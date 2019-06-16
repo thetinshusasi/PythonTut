@@ -1,3 +1,4 @@
+import  print_module
 # print("hi this is tinshu")
 # message = "hi i am master"
 # print(message)
@@ -100,4 +101,13 @@ firstList = [1, 2, 3, 4.9,  6]
 #     """
 #     print(name)
 
+#
+# print_module.print_values(1 ,2 ,4 ,5 ,5)
+# my_new_car = print_module.Car('audi', 'a4', 2016)
+# print(my_new_car.get_descriptive_name())
+# my_tesla = print_module.ElectricCar('tesla', 'model s', 2016)
+# print(my_tesla.get_descriptive_name())
 
+with open("digits.txt") as file_obj:
+    contents = file_obj.read()
+    print(contents)
